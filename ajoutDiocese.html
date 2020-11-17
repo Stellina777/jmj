@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>index page</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo  text-center">
+      <img src="image/logo.jpg">
+      <h5>Aza matahotra ry Maria, fa sitrak'Andriamanitra Ianao</h5>
+      <p>Lk 1.30</p>
+    </div>
+    <div class="menu">
+      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark sticky-top">
+        
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav  ">
+            <li class="nav-item sousmenu">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item sousmenu">
+              <a class="nav-link" href="site.html">Site</a>
+            </li>
+            <li class="nav-item sousmenu">
+              <a class="nav-link" href="dp.html">Diocèse&Pelerin</a>
+            </li> 
+            <li class="nav-item sousmenu">
+              <a class="nav-link" href="listeSite.html">Liste site</a>
+            </li>  
+            <li class="nav-item sousmenu">
+              <a class="nav-link" href="listeDiocese.html">Liste diocèse</a>
+            </li>     
+          </ul>
+        </div>  
+      </nav>
+    </div>
+  </header>
+
+  <section>
+  
+    <div class="card-header center">
+      <strong><h3>Ajout Diocèse & pérelins</h3></strong>
+    </div>
+    <div class="card-body card-block">
+      <form action="" method="POST" class="form-horizontal">
+          <div class="row form-group">
+            <div class="col col-md-2">
+              <label class=" form-control-label">Nom Diocèse</label>
+            </div>
+            <div class="col-12 col-md-10">
+              <input type="text" id="nomDiocese" name="nomSite" placeholder="Entrer nom Diocèse" class="form-control">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col col-md-2">
+              <label class=" form-control-label">Nombre des pérelins</label>
+            </div>                          
+            <div class="col-12 col-md-10">                         
+              <input type="text" id="nbr" name="nbr" placeholder="Entrer les nombres pérelins du diocèse" class="form-control">
+            </div>                          
+          </div>                          
+          <button type="button" class="btn btn-primary btn-block">Valider</button>                           
+      </form>                       
+    </div>
+  </section>
+
+  
+  <footer>
+    <div class="copy">
+      &#169; | anjastell 
+    </div>
+  </footer>
+
+
+</body>
+</html>

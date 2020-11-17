@@ -1,0 +1,30 @@
+body{
+	margin:auto;
+	background-color: #eee;
+	border: 25px #eee solid;
+}
+.logo{
+	background-color: #eee;
+	border: 25px #eee solid;
+}
+.menu{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.sousmenu{
+	text-align: center;
+	border-right:  1px #eee solid;
+}
+
+.box{
+	padding:15px 10px 10px 25px ;
+
+}
+footer{
+	background-color: #eee;
+	text-align: center;
+	padding-top: 1.5%;
+}
+.tableau{
+	text-align: center;
+}
